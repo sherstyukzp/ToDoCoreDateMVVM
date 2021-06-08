@@ -61,9 +61,8 @@
 				053C1356266E25F1002A6217 /* Model */,
 				053C1357266E25F9002A6217 /* View */,
 				053C1358266E2608002A6217 /* ViewModel */,
-				053C1359266E267A002A6217 /* CoreDataManager.swift */,
-				053C135B266E2766002A6217 /* TestAppModel.xcdatamodeld */,
-				053C1347266E25E9002A6217 /* ToDoCoreDateMVVMApp.swift */,
+				05615346266F830A006B317D /* CoreDate */,
+				05615345266F82DA006B317D /* SupportFile */,
 				053C134B266E25EB002A6217 /* Assets.xcassets */,
 				053C1350266E25EB002A6217 /* Info.plist */,
 				053C134D266E25EB002A6217 /* Preview Content */,
@@ -100,6 +99,23 @@
 				053C135E266E2904002A6217 /* TaskListViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		05615345266F82DA006B317D /* SupportFile */ = {
+			isa = PBXGroup;
+			children = (
+				053C1347266E25E9002A6217 /* ToDoCoreDateMVVMApp.swift */,
+				053C135B266E2766002A6217 /* TestAppModel.xcdatamodeld */,
+			);
+			path = SupportFile;
+			sourceTree = "<group>";
+		};
+		05615346266F830A006B317D /* CoreDate */ = {
+			isa = PBXGroup;
+			children = (
+				053C1359266E267A002A6217 /* CoreDataManager.swift */,
+			);
+			path = CoreDate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
